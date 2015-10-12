@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Area" representedClassName="Area" syncable="YES">
+        <attribute name="area_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area_no" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="friend" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Friend" inverseName="area" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <entity name="Friend" representedClassName="Friend" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="area" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="friend" inverseEntity="Area" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Area" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Friend" positionX="153" positionY="107" width="128" height="88"/>
+    </elements>
 </model>

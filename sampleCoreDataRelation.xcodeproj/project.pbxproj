@@ -15,6 +15,8 @@
 		1BF95DE61BC8B936009736FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF95DE51BC8B936009736FA /* Images.xcassets */; };
 		1BF95DE91BC8B936009736FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BF95DE71BC8B936009736FA /* LaunchScreen.xib */; };
 		1BF95DF51BC8B936009736FA /* sampleCoreDataRelationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF95DF41BC8B936009736FA /* sampleCoreDataRelationTests.m */; };
+		1BF95E001BC8E423009736FA /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF95DFF1BC8E423009736FA /* Friend.m */; };
+		1BF95E031BC8E424009736FA /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF95E021BC8E424009736FA /* Area.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		1BF95DEE1BC8B936009736FA /* sampleCoreDataRelationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleCoreDataRelationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF95DF31BC8B936009736FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BF95DF41BC8B936009736FA /* sampleCoreDataRelationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleCoreDataRelationTests.m; sourceTree = "<group>"; };
+		1BF95DFE1BC8E423009736FA /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		1BF95DFF1BC8E423009736FA /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		1BF95E011BC8E424009736FA /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		1BF95E021BC8E424009736FA /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				1BF95DE71BC8B936009736FA /* LaunchScreen.xib */,
 				1BF95DDC1BC8B936009736FA /* sampleCoreDataRelation.xcdatamodeld */,
 				1BF95DD51BC8B936009736FA /* Supporting Files */,
+				1BF95E011BC8E424009736FA /* Area.h */,
+				1BF95E021BC8E424009736FA /* Area.m */,
+				1BF95DFE1BC8E423009736FA /* Friend.h */,
+				1BF95DFF1BC8E423009736FA /* Friend.m */,
 			);
 			path = sampleCoreDataRelation;
 			sourceTree = "<group>";
@@ -222,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF95E031BC8E424009736FA /* Area.m in Sources */,
 				1BF95DDE1BC8B936009736FA /* sampleCoreDataRelation.xcdatamodeld in Sources */,
+				1BF95E001BC8E423009736FA /* Friend.m in Sources */,
 				1BF95DDB1BC8B936009736FA /* AppDelegate.m in Sources */,
 				1BF95DE11BC8B936009736FA /* ViewController.m in Sources */,
 				1BF95DD81BC8B936009736FA /* main.m in Sources */,
